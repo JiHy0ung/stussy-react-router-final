@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className='nav-top'>
             <div className='nav-left'>
                 <div className='nav-logo'>
-                    <img width={56} src='public/stussy-logo.svg'/>
+                    <img width={56} src='https://cdn.brandfetch.io/idQhFgaghK/theme/dark/logo.svg?c=1bxid64Mup7aczewSAYMX&t=1740484014859'/>
                 </div>
                 <div>
                     <ul className='menu-list'>
