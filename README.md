@@ -1,12 +1,20 @@
-# React + Vite
+# CoNoo Third React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Shopping App**
 
-Currently, two official plugins are available:
+### **[쇼핑 앱(스투시) 바로가기~🌦](https://hnm-react-router-test.vercel.app/)**
+![image](https://images.onthelook.co.kr/b/h9qsoq74Ch1JjDwfRPBYqL.jpeg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<br>
 
-## Expanding the ESLint configuration
+## 사용 언어
+* react
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<br>
+
+## **느낀점 & 개선사항**
+옷을 불러오는 productcard부분의 중앙배열이 제대로 이루어지지 않고 있음.
+
+진도를 따라가느라 css를 따로 공부할 시간이 없어
+
+css에 대한 지식이 많이 부족함.
