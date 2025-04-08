@@ -29,7 +29,7 @@ import Navbar from './component/Navbar'
 function App() {
 
   return (
-    <div >
+    <div>
       <div className='nav-area'>
         <Navbar/>
       </div>

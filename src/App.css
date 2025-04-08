@@ -111,6 +111,7 @@ body{
 }
 
 .product-area{
+  width: 100vw;
   padding-inline: 1.25rem;
   padding-block: 2rem;
 }
