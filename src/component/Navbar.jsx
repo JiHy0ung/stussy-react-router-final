@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Navbar = () => {
 
+    const [selectCategory, setSelectedCategory] = useState(null);
+
     const menuList = ['SHOP', 'LOOKBOOK', 'SUPPROT']
-    const categoryList = ['NEW ARRIVALS', 'SUNGLASSES', 'OUTERWEAR', 'TEES', 'HOODIES & SWEATS', 'KNITS', 'PANTS']
+    const categoryList = ['NEW ARRIVALS', 'SUNGLASSES', 'OUTERWEAR', 'TEES', 'TOPS & SWEATS', 'HOODIES & SWEATS', 'KNITS', 'PANTS', 'SHORTS', 'DENIM', 'HEADWEAR','ACCESSORIES']
 
   return (
     <div>
@@ -32,8 +34,10 @@ const Navbar = () => {
         <div className='nav-bottom'>
             <div>
                 <ul className='category-list'>
-                    {categoryList.map((menu) => (
-                        <li className='select'>{menu}</li>
+                    {categoryList.map((menu, idx) => (
+                        <li key={idx} className={`select ${selectCategory === menu ? 'active' : ''}`} onClick={() => setSelectedCategory(menu)}>
+                            {menu}
+                        </li>
                     ))}
                 </ul>
             </div>

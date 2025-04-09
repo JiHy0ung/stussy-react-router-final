@@ -1,4 +1,8 @@
 
+*{
+  overflow-x: hidden;
+}
+ 
 body{
   background-color: white;
 }
@@ -8,6 +12,10 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.nav-area{
+  margin-bottom: 109px;
 }
 
 .nav-top{
@@ -42,6 +50,7 @@ body{
   font-weight: bold;
   color: black;
   margin: 0;
+  padding-inline: 2.8rem;
 }
 
 .menu-list li{
@@ -93,16 +102,23 @@ body{
   align-items: center;
   list-style: none;
   cursor: pointer;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: bold;
   color: grey;
   cursor: pointer;
-  padding-left: 135px;
+  padding-left: 9rem;
   margin: 0;
+  letter-spacing: -1px;
 }
 
 .category-list li{
-  padding-inline: 1.5rem;
+  padding-inline: 1.1rem;
+}
+
+.select:hover {
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .select:active{
@@ -110,18 +126,49 @@ body{
   text-decoration: underline;
 }
 
+.select.active {
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 .product-area{
   width: 100vw;
-  padding-inline: 1.25rem;
-  padding-block: 2rem;
 }
 
 .product-all{
   display: flex;
-  padding-top: 109px;
+  width: 100%;
+}
+
+.product-card{
+  font-size: 10px;
+  margin-top: 20px;
+}
+
+.product-name{
+  font-weight: bold;
 }
 
 .product-img{
   width: 100%;
   object-fit: cover;
+}
+
+.product-sizes {
+  height: 1.2rem;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.3s, opacity 0.3s;
+  font-size: 0.9rem;
+  color: #000000;
+  font-size: 10px;
+  margin-right: .9375rem;
+  font-weight: bold;
+}
+
+/* hover 시 텍스트만 나타나게 */
+.product-card:hover .product-sizes {
+  visibility: visible;
+  opacity: 1;
 }

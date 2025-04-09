@@ -19,7 +19,7 @@ const ProductAll = () => {
 
   return (
     <div className='product-all'>
-        <Container>
+        <Container fluid style={{paddingInline: 160}}>
             <Row>
                 {productList.map((menu) => (
                     <Col lg={3} >
