@@ -1,7 +1,7 @@
 import { faSearch, faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react'
-
+import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -9,6 +9,12 @@ const Navbar = () => {
 
     const menuList = ['SHOP', 'LOOKBOOK', 'SUPPROT']
     const categoryList = ['NEW ARRIVALS', 'SUNGLASSES', 'OUTERWEAR', 'TEES', 'TOPS & SWEATS', 'HOODIES & SWEATS', 'KNITS', 'PANTS', 'SHORTS', 'DENIM', 'HEADWEAR','ACCESSORIES']
+
+    const navigate = useNavigate();
+
+    const goToLogin = () =>{
+        navigate('/login')
+    }
 
   return (
     <div>
@@ -30,7 +36,7 @@ const Navbar = () => {
                     <FontAwesomeIcon className='search-icon' icon={faSearch}/>
                     <input className='nav-input' type="text" placeholder='SEARCH'/>
                 </div>
-                <div className='login-area'>
+                <div className='login-area' onClick={goToLogin}>
                     <FontAwesomeIcon icon={faUser}/>
                     LOGIN
                 </div>

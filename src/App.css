@@ -209,7 +209,6 @@ body{
   font-weight: bold;
 }
 
-/* hover 시 텍스트만 나타나게 */
 .product-card:hover .product-sizes {
   visibility: visible;
   opacity: 1;
