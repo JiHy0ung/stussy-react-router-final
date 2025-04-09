@@ -24,6 +24,8 @@ body{
 
 .nav-area{
   margin-bottom: 109px;
+  position: relative;
+  z-index: 2;
 }
 
 .nav-top{
