@@ -25,7 +25,7 @@ body{
 .nav-area{
   margin-bottom: 109px;
   position: relative;
-  z-index: 2;
+  z-index: 3;
 }
 
 .nav-top{
@@ -195,10 +195,21 @@ body{
   margin-top: 20px;
   overflow: hidden;
   position: relative;
+  background-color: white;
+  letter-spacing: -0.5px;
 }
 
 .choice{
   font-size: 10px;
+  padding-top: 5px;
+}
+
+.choice-true-text{
+  display: inline-block;
+  padding-inline: 3px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
 }
 
 .product-name{
@@ -211,6 +222,12 @@ body{
   transition: transform 0.3s ease-in-out;
   z-index: 0;
   position: relative;
+}
+
+.product-new{
+  text-align: right;
+  margin-right: 5px;
+  font-weight: bold;
 }
 
 .product-sizes {
@@ -235,12 +252,17 @@ body{
   overflow: hidden;
 }
 
+.product-card:hover .product-new{
+  color: #CBBD93;
+}
+
 .product-name,
 .choice,
+.choice-true,
 .product-sizes {
   background-color: white;
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 
 

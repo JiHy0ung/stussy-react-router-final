@@ -15,7 +15,7 @@
             "img":"/ProductImage/INTERNATIONAL_TEAM_JERSEY(WHITE).jpg",
             "title":"STÜSSY INTERNATIONAL TEAM JERSEY",
             "price":195000,
-            "choice":true,
+            "choice":false,
             "new":true,
             "size":["S","M","L","XL","XXL"]
 
@@ -45,7 +45,7 @@
             "img":"/ProductImage/BASIC_MESH_SHORT(BLACK).webp",
             "title":"BASIC MESH SHORT",
             "price":13300,
-            "choice":true,
+            "choice":false,
             "new":false,
             "size":["S","M","L","XL","XXL"]
 
@@ -65,7 +65,7 @@
             "img":"/ProductImage/BASIC_MESH_SHORT(DARK_RED).webp",
             "title":"BASIC MESH SHORT",
             "price":13300,
-            "choice":true,
+            "choice":false,
             "new":false,
             "size":["S","M","L","XL","XXL"]
 
@@ -76,7 +76,7 @@
             "title":"BASIC MESH SHORT",
             "price":13300,
             "choice":false,
-            "new":true,
+            "new":false,
             "size":["S","M","L","XL","XXL"]
 
         },
@@ -95,7 +95,7 @@
             "img":"/ProductImage/DOUBLE_LAYER_WAFFLE_ZIP_HOODIE(OFF_WHITE).webp",
             "title":"DOUBLE LAYER WAFFLE ZIP HOODIE",
             "price":235000,
-            "choice":false,
+            "choice":true,
             "new":true,
             "size":["S","M","L","XL","XXL"]
 
@@ -105,8 +105,8 @@
             "img":"/ProductImage/DOUBLE_LAYER_WAFFLE_ZIP_HOODIE(BLUE).webp",
             "title":"DOUBLE LAYER WAFFLE ZIP HOODIE",
             "price":235000,
-            "choice":true,
-            "new":false,
+            "choice":false,
+            "new":true,
             "size":["S","M","L","XL","XXL"]
 
         },
@@ -115,7 +115,7 @@
             "img":"/ProductImage/DOUBLE_LAYER_WAFFLE_ZIP_HOODIE(RED).webp",
             "title":"DOUBLE LAYER WAFFLE ZIP HOODIE",
             "price":235000,
-            "choice":true,
+            "choice":false,
             "new":true,
             "size":["S","M","L","XL","XXL"]
 
@@ -125,7 +125,7 @@
             "img":"/ProductImage/DOUBLE_LAYER_WAFFLE_ZIP_HOODIE(BLACK).webp",
             "title":"DOUBLE LAYER WAFFLE ZIP HOODIE",
             "price":235000,
-            "choice":true,
+            "choice":false,
             "new":true,
             "size":["S","M","L","XL","XXL"]
 
@@ -156,7 +156,7 @@
             "title":"TOUGH TREAD TEE",
             "price":73000,
             "choice":false,
-            "new":false,
+            "new":true,
             "size":["S","M","L","XL","XXL"]
 
         },
@@ -166,7 +166,7 @@
             "title":"WAVY STRIPED SHORT SLEEVE SHIRT",
             "price":235000,
             "choice":false,
-            "new":false,
+            "new":true,
             "size":["S","M","L","XL","XXL"]
 
         },
@@ -175,8 +175,8 @@
             "img":"/ProductImage/WAVY_STRIPED_SHORT_SLEEVE_SHIRT(NATURAL).webp",
             "title":"WAVY STRIPED SHORT SLEEVE SHIRT",
             "price":235000,
-            "choice":false,
-            "new":false,
+            "choice":true,
+            "new":true,
             "size":["S","M","L","XL","XXL"]
 
         },
@@ -196,7 +196,7 @@
             "title":"BIG OL'JEAN VINTAGE DENIM",
             "price":249000,
             "choice":false,
-            "new":false,
+            "new":true,
             "size":["26","28","30","32","34","36","38"]
 
         }
