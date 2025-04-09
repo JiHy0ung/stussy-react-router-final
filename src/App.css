@@ -26,6 +26,7 @@ body{
   top: 0;
   height: 59px;
   border-bottom: 1px solid whitesmoke;
+  background-color: white;
 }
 
 .nav-left{
@@ -61,6 +62,7 @@ body{
   display: flex;
   justify-content: flex-end;
   padding: 1rem;
+  background-color: white;
 }
 
 .nav-input{
@@ -95,6 +97,7 @@ body{
   height: 50px;
   top: 59px;
   border-bottom: 1px solid whitesmoke;
+  background-color: white;
 }
 
 .category-list{
@@ -144,6 +147,10 @@ body{
 .product-card{
   font-size: 10px;
   margin-top: 20px;
+}
+
+.choice{
+  font-size: 10px;
 }
 
 .product-name{
