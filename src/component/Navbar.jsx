@@ -2,6 +2,7 @@ import { faSearch, faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react'
 
+
 const Navbar = () => {
 
     const [selectCategory, setSelectedCategory] = useState(null);
@@ -25,7 +26,7 @@ const Navbar = () => {
                 </div>
             </div>
             <div className='nav-service'>
-                <div className='nav-input-area'>
+                <div className='nav-input-area' >
                     <FontAwesomeIcon className='search-icon' icon={faSearch}/>
                     <input className='nav-input' type="text" placeholder='SEARCH'/>
                 </div>
