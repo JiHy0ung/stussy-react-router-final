@@ -73,12 +73,29 @@ body{
   background-color: white;
 }
 
+.search-icon{
+  width: 10px;
+  color: black;
+}
+
+.nav-input-area{
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 10px;
+}
 
 .nav-input{
   border: none;
   outline: none;
   width: 66px;
   cursor: pointer;
+  border-bottom: 1px solid black;
+
+}
+
+.nav-input:focus {
+  border-bottom: 1px solid black;
 }
 
 .nav-input:hover{
@@ -99,6 +116,7 @@ body{
   font-weight: bold;
   color: black;
   cursor: pointer;
+  gap: 4px;
 }
 
 .login-area:hover{
