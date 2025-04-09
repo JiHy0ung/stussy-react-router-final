@@ -58,6 +58,14 @@ body{
   padding-inline: 1.5rem;
 }
 
+.menu-list li:hover{
+  -webkit-text-stroke: 0.3px black;
+}
+
+.menu-list li:active{
+  -webkit-text-stroke: 0.3px black;
+}
+
 .nav-service{
   display: flex;
   justify-content: flex-end;
@@ -65,11 +73,16 @@ body{
   background-color: white;
 }
 
+
 .nav-input{
   border: none;
   outline: none;
   width: 66px;
   cursor: pointer;
+}
+
+.nav-input:hover{
+  -webkit-text-stroke: 0.3px black;
 }
 
 .nav-input::placeholder{
@@ -86,6 +99,10 @@ body{
   font-weight: bold;
   color: black;
   cursor: pointer;
+}
+
+.login-area:hover{
+  -webkit-text-stroke: 0.3px black;
 }
 
 .nav-bottom{
