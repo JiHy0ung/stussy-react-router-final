@@ -7,7 +7,7 @@ const Navbar = () => {
 
     const [selectCategory, setSelectedCategory] = useState(null);
 
-    const menuList = ['SHOP', 'LOOKBOOK', 'SUPPROT']
+    const menuList = ['SHOP', 'LOOKBOOK', 'SUPPORT']
     const categoryList = ['NEW ARRIVALS', 'SUNGLASSES', 'OUTERWEAR', 'TEES', 'TOPS & SWEATS', 'HOODIES & SWEATS', 'KNITS', 'PANTS', 'SHORTS', 'DENIM', 'HEADWEAR','ACCESSORIES']
 
     const navigate = useNavigate();
@@ -16,11 +16,15 @@ const Navbar = () => {
         navigate('/login')
     }
 
+    const goToHome = () => {
+        navigate('/');
+    }
+
   return (
     <div>
         <div className='nav-top'>
             <div className='nav-left'>
-                <div className='nav-logo'>
+                <div className='nav-logo' onClick={goToHome}>
                     <img width={56} src='/stussy-logo.svg'/>
                 </div>
                 <div>
