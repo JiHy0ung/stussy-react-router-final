@@ -349,3 +349,16 @@ input[type="email"], input[type="password"]{
   background-color: grey;
   color: white;
 }
+
+.detail{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+}

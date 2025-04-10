@@ -7,7 +7,7 @@ const ProductAll = () => {
     const [productList, setProductList] = useState([]);
 
     const getProducts = async() => {
-        let url = `https://my-json-server.typicode.com/JiHy0ung/stussy-react-router-9/products`
+        let url = `https://my-json-server.typicode.com/JiHy0ung/stussy-react-router-final/products`
         let response = await fetch(url);
         let data = await response.json();
         setProductList(data);

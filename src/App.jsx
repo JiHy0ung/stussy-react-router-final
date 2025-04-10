@@ -38,7 +38,7 @@ function App() {
   },[authenticate]);
 
   return (
-    <div >
+    <>
       <div className='nav-area'>
         <Navbar/>
       </div>
@@ -49,7 +49,7 @@ function App() {
           <Route path='/product/:id' element={<PrivateRoute authenticate={authenticate}/>}/>
         </Routes>
       </div>
-    </div>
+    </>
   )
 }
 

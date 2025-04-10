@@ -8,7 +8,7 @@
             "choice":true,
             "new":true,
             "size":["S","M","L","XL","XXL"],
-            "detail-img":"/DetailImage/INTERNATIONAL_TEAM_JERSEY(BLACK).webp"
+            "detailImag":"/DetailImage/INTERNATIONAL_TEAM_JERSEY(BLACK).webp"
 
         },
         {
@@ -19,7 +19,7 @@
             "choice":false,
             "new":true,
             "size":["S","M","L","XL","XXL"],
-            "detail-img":"/DetailImage/INTERNATIONAL_TEAM_JERSEY(WHITE).webp"
+            "detailImag":"/DetailImage/INTERNATIONAL_TEAM_JERSEY(WHITE).webp"
 
         },
         {
@@ -30,7 +30,7 @@
             "choice":false,
             "new":true,
             "size":["S","M","L","XL","XXL"],
-            "detail-img":"/DetailImage/INTERNATIONAL_TEAM_JERSEY(BLUE).webp"
+            "detailImag":"/DetailImage/INTERNATIONAL_TEAM_JERSEY(BLUE).webp"
 
         },
         {
@@ -41,7 +41,7 @@
             "choice":false,
             "new":true,
             "size":["S","M","L","XL","XXL"],
-            "detail-img":"/DetailImage/BASIC_MESH_SHORT(SAND_CAMO).webp"
+            "detailImag":"/DetailImage/BASIC_MESH_SHORT(SAND_CAMO).webp"
 
         },
         {
@@ -52,7 +52,7 @@
             "choice":false,
             "new":false,
             "size":["S","M","L","XL","XXL"],
-            "detail-img":"/DetailImage/BASIC_MESH_SHORT(BLACK).webp"
+            "detailImag":"/DetailImage/BASIC_MESH_SHORT(BLACK).webp"
 
         },
         {
@@ -63,7 +63,7 @@
             "choice":false,
             "new":false,
             "size":["S","M","L","XL","XXL"],
-            "detail-img":"/DetailImage/BASIC_MESH_SHORT(BLUE).webp"
+            "detailImag":"/DetailImage/BASIC_MESH_SHORT(BLUE).webp"
 
         },
         {
@@ -74,7 +74,7 @@
             "choice":false,
             "new":false,
             "size":["S","M","L","XL","XXL"],
-            "detail-img":"/DetailImage/BASIC_MESH_SHORT(DARK_RED).webp"
+            "detailImag":"/DetailImage/BASIC_MESH_SHORT(DARK_RED).webp"
 
         },
         {
@@ -85,7 +85,7 @@
             "choice":false,
             "new":false,
             "size":["S","M","L","XL","XXL"],
-            "detail-img":"/DetailImage/BASIC_MESH_SHORT(ORANGE).webp"
+            "detailImag":"/DetailImage/BASIC_MESH_SHORT(ORANGE).webp"
 
         },
         {
@@ -96,7 +96,7 @@
             "choice":true,
             "new":true,
             "size":["S","M","L","XL","XXL"],
-            "detail-img":"/DetailImage/BASIC_MESH_SHORT(LEOPARD).webp"
+            "detailImag":"/DetailImage/BASIC_MESH_SHORT(LEOPARD).webp"
 
         },
         {
@@ -107,7 +107,7 @@
             "choice":true,
             "new":true,
             "size":["S","M","L","XL","XXL"],
-            "detail-img":"/DetailImage/DOUBLE_LAYER_WAFFLE_ZIP_HOODIE(OFF_WHITE).webp"
+            "detailImag":"/DetailImage/DOUBLE_LAYER_WAFFLE_ZIP_HOODIE(OFF_WHITE).webp"
 
         },
         {
@@ -118,7 +118,7 @@
             "choice":false,
             "new":true,
             "size":["S","M","L","XL","XXL"],
-            "detail-img":"/DetailImage/DOUBLE_LAYER_WAFFLE_ZIP_HOODIE(BLUE).webp"
+            "detailImag":"/DetailImage/DOUBLE_LAYER_WAFFLE_ZIP_HOODIE(BLUE).webp"
 
         },
         {
@@ -129,7 +129,7 @@
             "choice":false,
             "new":true,
             "size":["S","M","L","XL","XXL"],
-            "detail-img":"/DetailImage/DOUBLE_LAYER_WAFFLE_ZIP_HOODIE(RED).webp"
+            "detailImag":"/DetailImage/DOUBLE_LAYER_WAFFLE_ZIP_HOODIE(RED).webp"
 
         },
         {
@@ -140,7 +140,7 @@
             "choice":false,
             "new":true,
             "size":["S","M","L","XL","XXL"],
-            "detail-img":"/DetailImage/DOUBLE_LAYER_WAFFLE_ZIP_HOODIE(BLACK).webp"
+            "detailImag":"/DetailImage/DOUBLE_LAYER_WAFFLE_ZIP_HOODIE(BLACK).webp"
 
         },
         {
@@ -151,7 +151,7 @@
             "choice":false,
             "new":false,
             "size":["S","M","L","XL","XXL"],
-            "detail-img":"/DetailImage/TOUGH_TREAD_TEE(WHITE).webp"
+            "detailImag":"/DetailImage/TOUGH_TREAD_TEE(WHITE).webp"
 
         },
         {
@@ -162,7 +162,7 @@
             "choice":false,
             "new":false,
             "size":["S","M","L","XL","XXL"],
-            "detail-img":"/DetailImage/TOUGH_TREAD_TEE(BLACK).webp"
+            "detailImag":"/DetailImage/TOUGH_TREAD_TEE(BLACK).webp"
 
         },
         {
@@ -173,7 +173,7 @@
             "choice":false,
             "new":true,
             "size":["S","M","L","XL","XXL"],
-            "detail-img":"/DetailImage/TOUGH_TREAD_TEE(CAYENNE).webp"
+            "detailImag":"/DetailImage/TOUGH_TREAD_TEE(CAYENNE).webp"
 
         },
         {
@@ -184,7 +184,7 @@
             "choice":false,
             "new":true,
             "size":["S","M","L","XL","XXL"],
-            "detail-img":"/DetailImage/WAVY_STRIPED_SHORT_SLEEVE_SHIRT(BLUE).webp"
+            "detailImag":"/DetailImage/WAVY_STRIPED_SHORT_SLEEVE_SHIRT(BLUE).webp"
 
         },
         {
@@ -195,7 +195,7 @@
             "choice":true,
             "new":true,
             "size":["S","M","L","XL","XXL"],
-            "detail-img":"/DetailImage/WAVY_STRIPED_SHORT_SLEEVE_SHIRT(NATURAL).webp"
+            "detailImag":"/DetailImage/WAVY_STRIPED_SHORT_SLEEVE_SHIRT(NATURAL).webp"
 
         },
         {
@@ -206,7 +206,7 @@
             "choice":false,
             "new":false,
             "size":["26","28","30","32","34","36","38"],
-            "detail-img":"/DetailImage/BIG_OL'_JEAN_VINTAGE_DENIM(INDIGO).webp"
+            "detailImag":"/DetailImage/BIG_OL'_JEAN_VINTAGE_DENIM(INDIGO).webp"
 
         },
         {
@@ -217,7 +217,7 @@
             "choice":false,
             "new":true,
             "size":["26","28","30","32","34","36","38"],
-            "detail-img":"/DetailImage/BIG_OL'_JEAN_VINTAGE_DENIM(BROWN).webp"
+            "detailImag":"/DetailImage/BIG_OL'_JEAN_VINTAGE_DENIM(BROWN).webp"
 
         }
     ]
