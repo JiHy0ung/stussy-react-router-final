@@ -24,15 +24,15 @@ const ProductAll = () => {
             url = `https://my-json-server.typicode.com/JiHy0ung/stussy-react-router-final/products?q=OUTERWEAR`;
         }
 
-        if (searchQuery === 'category=TEES') {
-            url = `https://my-json-server.typicode.com/JiHy0ung/stussy-react-router-final/products?q=TEES`;
+        if (searchQuery === 'Category=TEES') {
+            url = `https://my-json-server.typicode.com/JiHy0ung/stussy-react-router-final/products?qTEES`;
         }
 
-        if (searchQuery === 'category=TOP') {
+        if (searchQuery === 'Category=TOP') {
             url = `https://my-json-server.typicode.com/JiHy0ung/stussy-react-router-final/products?q=TOP`;
         }
 
-        if (searchQuery === 'category=PANTS') {
+        if (searchQuery === 'Category=PANTS') {
             url = `https://my-json-server.typicode.com/JiHy0ung/stussy-react-router-final/products?q=PANTS`;
         }
 
