@@ -287,54 +287,6 @@
             "size":["ONE SIZE"],
             "detailImage":"/DetailImage/LANDON_SUNGLASSES(DARK_BRICK/BROWN_LENS).webp"
 
-        },
-        {
-            "id":24,
-            "img":"/ProductImage/TRUCKER_JACKET_VINTAGE_DENIM(INDIGO).webp",
-            "title":"TRUCKER JACKET VINTAGE DENIM",
-            "price":289000,
-            "color":"BLUE",
-            "choice":false,
-            "new":true,
-            "size":["S","M","L","XL","XXL"],
-            "detailImage":"/DetailImage/TRUCKER_JACKET_VINTAGE_DENIM(INDIGO).webp"
-
-        },
-        {
-            "id":25,
-            "img":"/ProductImage/TRUCKER_JACKET_VINTAGE_DENIM(BROWN).webp",
-            "title":"TRUCKER JACKET VINTAGE DENIM",
-            "price":289000,
-            "color":"BLUE",
-            "choice":false,
-            "new":true,
-            "size":["S","M","L","XL","XXL"],
-            "detailImage":"/DetailImage/TRUCKER_JACKET_VINTAGE_DENIM(BROWN).webp"
-
-        },
-        {
-            "id":26,
-            "img":"/ProductImage/BEACH_SHELL_SNAKE_PRINT_NYLON(OLIVE).webp",
-            "title":"BEACH SHELL SNAKE PRINT NYLON",
-            "price":289000,
-            "color":"OLIVE",
-            "choice":false,
-            "new":true,
-            "size":["S","M","L","XL","XXL"],
-            "detailImage":"/DetailImage/BEACH_SHELL_SNAKE_PRINT_NYLON(OLIVE).webp"
-
-        },
-        {
-            "id":27,
-            "img":"/ProductImage/BEACH_SHELL_SNAKE_PRINT_NYLON(KHAKI).webp",
-            "title":"BEACH SHELL SNAKE PRINT NYLON",
-            "price":289000,
-            "color":"KHAKI",
-            "choice":false,
-            "new":true,
-            "size":["S","M","L","XL","XXL"],
-            "detailImage":"/DetailImage/BEACH_SHELL_SNAKE_PRINT_NYLON(KHAKI).webp"
-
         }
     ]
 }
