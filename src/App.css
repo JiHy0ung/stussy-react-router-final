@@ -526,7 +526,6 @@ input[type="email"], input[type="password"]{
 
 .detail-container{
   width: 1405px;
-  padding-top: 59px;
 }
 
 .detail-box{
@@ -541,6 +540,10 @@ input[type="email"], input[type="password"]{
 
   .detail{
     width: 100vw !important;
+  }
+  
+  .detail-box{
+    padding-top: 59px;
   }
 
   .detail-info{
