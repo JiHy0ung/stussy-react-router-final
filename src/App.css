@@ -234,15 +234,16 @@ body{
   gap: 1rem;
 }
 
-.nav-serach-icon{
+.nav-search-icon{
   padding-left: 9.5vw;
 }
 
-.nav-serach-input-area{
+.nav-search-input-area{
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100vw;
+  height: 49px;
 }
 
 .nav-search-input{
@@ -255,7 +256,6 @@ body{
 }
 
 .nav-search-icon{
-  padding-block: 100%;
   width: 4rem;
   cursor: pointer;
 }
@@ -428,6 +428,14 @@ body{
     width: 70vw !important;
   }
 
+  .nav-area{
+    margin: 0;
+  }
+
+  .menu-list{
+    display: none;
+  }
+
 }
 
 .account-area{
@@ -439,7 +447,7 @@ body{
 }
 
 .login-box{
-  width: 30dvw;
+  width: 25dvw;
 }
 
 input[type="email"], input[type="password"]{
@@ -473,7 +481,7 @@ input[type="email"], input[type="password"]{
 }
 
 .signup-box{
-  width: 30dvw;
+  width: 25dvw;
 }
 
 .signup-title{

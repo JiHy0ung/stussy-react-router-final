@@ -50,7 +50,6 @@ const Navbar = ({authenticate, setAuthenticate}) => {
                 <div className='nav-input-area' onClick={() => setSearchOpen(!searchOpen)}>
                     <FontAwesomeIcon className='search-icon' icon={faSearch}/>
                     <div className='nav-search-text'>SEARCH</div>
-                    {/* <input className='nav-input' type="text" placeholder='SEARCH' onKeyDown={(event)=>search(event)}/> */}
                 </div>
                 <div className='login-area' onClick={goToLogin}>
                     <FontAwesomeIcon icon={faUser}/>
@@ -64,8 +63,8 @@ const Navbar = ({authenticate, setAuthenticate}) => {
         </div>
 
         <div className={`nav-search ${searchOpen ? 'active' : ''}`}>
-            <FontAwesomeIcon className='nav-serach-icon' icon={faSearch}/>
-            <div className='nav-serach-input-area'>
+            <FontAwesomeIcon className='nav-search-icon' icon={faSearch}/>
+            <div className='nav-search-input-area'>
             <input className='nav-search-input' type="text" placeholder='검색하기' onFocus={(e) => e.target.value = ''} onKeyDown={(event)=>search(event)}/>
             <FontAwesomeIcon className='nav-search-icon' icon={faX} onClick={() => setSearchOpen(!searchOpen)}/>
             </div>
