@@ -249,7 +249,7 @@ body{
   border: none;
   outline: none;
   cursor: pointer;
-  width: 70vw;
+  width: 100vw;
   font-size: 10px;
   padding-block: 0.5rem;
 }
