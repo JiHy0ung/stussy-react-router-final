@@ -91,11 +91,22 @@ const Navbar = ({authenticate, setAuthenticate}) => {
             
         <div>
             <ul className={`nav-sidemenu ${sideMenuOpen ? 'open' : ''}`}>
-                {categoryList.map((menu, idx) => (
-                    <li key={idx} className={`side-select ${selectCategory === menu ? 'active' : ''}`} onClick={() => goToProductAll(menu)}>
-                        {menu}
-                    </li>
-                ))}
+                
+                <div className='side-select-menu'>
+                    {menuList.map((menu, idx) => (
+                        <li key={idx} className={`side-select ${selectCategory === menu ? 'active' : ''}`} onClick={() => goToProductAll(menu)}>
+                            {menu}
+                        </li>
+                    ))}
+                </div>
+                
+                <div className='side-select-category'>
+                    {categoryList.map((menu, idx) => (
+                        <li key={idx} className={`side-select ${selectCategory === menu ? 'active' : ''}`} onClick={() => goToProductAll(menu)}>
+                            {menu}
+                        </li>
+                    ))}
+                </div>
             </ul>
         </div>
 
