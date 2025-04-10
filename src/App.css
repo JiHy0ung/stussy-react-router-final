@@ -412,6 +412,24 @@ body{
   margin-bottom: 1.25rem;
 }
 
+@media screen and (max-width: 1000px) {
+  .account-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+  }
+
+  .login-box{
+    width: 50vw !important;
+  }
+
+  .signup-box{
+    width: 50vw !important;
+  }
+
+}
+
 .account-area{
   display: flex;
   justify-content: center;
