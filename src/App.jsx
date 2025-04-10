@@ -27,6 +27,7 @@ import ProductDetail from './page/ProductDetail'
 import Navbar from './component/Navbar'
 import { useEffect, useState } from 'react';
 import PrivateRoute from './route/PrivateRoute';
+import Home from './page/Home';
 
 function App() {
 

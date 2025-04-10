@@ -8,7 +8,7 @@ const Navbar = () => {
     const [selectCategory, setSelectedCategory] = useState(null);
 
     const menuList = ['SHOP', 'LOOKBOOK', 'SUPPORT']
-    const categoryList = ['NEW ARRIVALS', 'SUNGLASSES', 'OUTERWEAR', 'TEES', 'TOPS & SWEATS', 'HOODIES & SWEATS', 'KNITS', 'PANTS', 'SHORTS', 'DENIM', 'HEADWEAR','ACCESSORIES']
+    const categoryList = ['ALL', 'NEW ARRIVALS', 'SUNGLASSES', 'OUTERWEAR', 'TEES', 'TOPS & SWEATS', 'HOODIES & SWEATS', 'KNITS', 'PANTS', 'SHORTS', 'DENIM', 'HEADWEAR','ACCESSORIES']
 
     const navigate = useNavigate();
 

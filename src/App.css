@@ -155,7 +155,7 @@ body{
   font-weight: bold;
   color: grey;
   cursor: pointer;
-  padding-left: 9rem;
+  padding-left: 9.2rem;
   margin: 0;
   letter-spacing: -1px;
 }
@@ -180,6 +180,12 @@ body{
   font-weight: bold;
   text-decoration: underline;
 }
+
+
+.home-img{
+  padding: 1.25rem;
+}
+
 
 .product-area{
   width: 100vw;
@@ -277,13 +283,13 @@ body{
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 5rem;
+  gap: 10rem;
   width: 100%;
   font-family: 'Helvetica Neue';
 }
 
 .login-box{
-  width: 40dvw;
+  width: 30dvw;
 }
 
 input[type="email"], input[type="password"]{
@@ -318,7 +324,7 @@ input[type="email"], input[type="password"]{
 }
 
 .signup-box{
-  width: 40dvw;
+  width: 30dvw;
 }
 
 .signup-title{
