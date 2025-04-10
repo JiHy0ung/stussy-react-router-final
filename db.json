@@ -251,6 +251,18 @@
             "size":["ONE SIZE"],
             "detailImage":"/DetailImage/LANDON_SUNGLASSES(CHETAH/DARK_BROWN_LENS).webp"
 
+        },
+        {
+            "id":21,
+            "img":"/ProductImage/LANDON_SUNGLASSES(BLACK/BLACK_LENS).webp",
+            "title":"LANDON SUNGLASSES",
+            "price":249000,
+            "color":"BLACK/BLACK LENS",
+            "choice":false,
+            "new":true,
+            "size":["ONE SIZE"],
+            "detailImage":"/DetailImage/LANDON_SUNGLASSES(BLACK/BLACK_LENS).webp"
+
         }
     ]
 }
