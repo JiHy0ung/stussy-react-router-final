@@ -52,7 +52,7 @@ body{
   list-style: none;
   cursor: pointer;
   font-size: 10px;
-  font-weight: bold;
+  font-weight: 700;
   color: black;
   margin: 0;
   padding-inline: 2.8rem;
@@ -63,11 +63,11 @@ body{
 }
 
 .menu-list li:hover{
-  -webkit-text-stroke: 0.3px black;
+  font-weight: 900;
 }
 
 .menu-list li:active{
-  -webkit-text-stroke: 0.3px black;
+  font-weight: 900;
 }
 
 .nav-service{
@@ -80,6 +80,20 @@ body{
 .search-icon{
   width: 10px;
   color: black;
+}
+
+.nav-search-text{
+  font-size: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.nav-search-text:hover{
+  font-weight: 900;
+}
+
+.nav-search-text.active{
+  text-decoration: underline;
 }
 
 .nav-input-area{
@@ -95,7 +109,6 @@ body{
   width: 66px;
   cursor: pointer;
   border-bottom: 1px solid black;
-
 }
 
 .nav-input:focus {
@@ -103,7 +116,7 @@ body{
 }
 
 .nav-input:hover{
-  -webkit-text-stroke: 0.3px black;
+  font-weight: 900;
 }
 
 .nav-input::placeholder{
@@ -117,14 +130,14 @@ body{
   align-items: center;
   padding-inline: 1.5rem;
   font-size: 10px;
-  font-weight: bold;
+  font-weight: 700;
   color: black;
   cursor: pointer;
   gap: 4px;
 }
 
 .login-area:hover{
-  -webkit-text-stroke: 0.3px black;
+  font-weight: 900;
 }
 
 
@@ -200,6 +213,57 @@ body{
 
 }
 
+.nav-search{
+  display: none;
+  align-items: center;
+  gap: 1rem;
+  width: 100vw;
+  position: fixed;
+  height: 50px;
+  top: 59px;
+  padding-inline: .625rem;
+  border-bottom: 1px solid whitesmoke;
+  background-color: white;
+  position: fixed;
+  z-index: 10;
+}
+
+.nav-search.active{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-serach-icon{
+  padding-left: 10rem;
+  height: 20px;
+}
+
+.nav-serach-input-area{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+}
+
+.nav-search-input{
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 70vw;
+  font-size: 10px;
+  padding-block: 0.5rem;
+}
+
+.nav-search-icon{
+  padding-block: 100%;
+  width: 4rem;
+  cursor: pointer;
+}
+
+.nav-search-icon:hover{
+  background-color: whitesmoke;
+}
 
 
 
@@ -213,6 +277,8 @@ body{
   top: 59px;
   border-bottom: 1px solid whitesmoke;
   background-color: white;
+  position: fixed;
+  z-index: 5;
 }
 
 .category-list{

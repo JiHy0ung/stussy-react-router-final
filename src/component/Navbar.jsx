@@ -1,12 +1,13 @@
 import { faBars, faSearch, faUser, faX } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React, { use, useState } from 'react'
+import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 
 const Navbar = ({authenticate, setAuthenticate}) => {
 
     const [selectCategory, setSelectedCategory] = useState(null);
     const [sideMenuOpen, setSideMenuOpen] = useState(false);
+    const [searchOpen, setSearchOpen] = useState(false);
 
     const menuList = ['SHOP', 'LOOKBOOK', 'SUPPORT']
     const categoryList = ['ALL', 'NEW ARRIVALS', 'SUNGLASSES', 'OUTERWEAR', 'TEES', 'TOPS & SWEATS', 'HOODIES & SWEATS', 'KNITS', 'PANTS', 'SHORTS', 'DENIM', 'HEADWEAR','ACCESSORIES']
@@ -27,7 +28,6 @@ const Navbar = ({authenticate, setAuthenticate}) => {
             // 입력한 검색어를 가져와 url을 바꿔준다.
             let keyword = event.target.value;
             navigate(`/?q=${keyword}`);
-
         }
     };
 
@@ -47,9 +47,10 @@ const Navbar = ({authenticate, setAuthenticate}) => {
                 </div>
             </div>
             <div className='nav-service'>
-                <div className='nav-input-area' >
+                <div className='nav-input-area' onClick={() => setSearchOpen(!searchOpen)}>
                     <FontAwesomeIcon className='search-icon' icon={faSearch}/>
-                    <input className='nav-input' type="text" placeholder='SEARCH'onKeyDown={(event)=>search(event)}/>
+                    <div className='nav-search-text'>SEARCH</div>
+                    {/* <input className='nav-input' type="text" placeholder='SEARCH' onKeyDown={(event)=>search(event)}/> */}
                 </div>
                 <div className='login-area' onClick={goToLogin}>
                     <FontAwesomeIcon icon={faUser}/>
@@ -62,6 +63,14 @@ const Navbar = ({authenticate, setAuthenticate}) => {
             </div>
         </div>
 
+        <div className={`nav-search ${searchOpen ? 'active' : ''}`}>
+            <FontAwesomeIcon className='nav-serach-icon' icon={faSearch}/>
+            <div className='nav-serach-input-area'>
+            <input className='nav-search-input' type="text" placeholder='검색하기' onFocus={(e) => e.target.value = ''} onKeyDown={(event)=>search(event)}/>
+            <FontAwesomeIcon className='nav-search-icon' icon={faX} onClick={() => setSearchOpen(!searchOpen)}/>
+            </div>
+        </div>
+            
         <div>
             <ul className={`nav-sidemenu ${sideMenuOpen ? 'open' : ''}`}>
                 {categoryList.map((menu, idx) => (
