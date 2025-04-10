@@ -81,8 +81,8 @@ const Navbar = ({authenticate, setAuthenticate}) => {
         </div>
 
         <div className='nav-bottom'>
-            <div className='nav-category-menu'>
-                <ul className='category-list'>
+            <div className='nav-category-menu scroll-hidden'>
+                <ul className='category-list scroll-hidden'>
                     {categoryList.map((menu, idx) => (
                         <li key={idx} className={`select ${selectCategory === menu ? 'active' : ''}`} onClick={() => setSelectedCategory(menu)}>
                             {menu}
