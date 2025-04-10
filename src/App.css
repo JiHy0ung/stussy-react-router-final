@@ -347,7 +347,6 @@ input[type="email"], input[type="password"]{
 }
 
 .detail-container{
-
   width: 1405px;
 }
 
@@ -356,18 +355,22 @@ input[type="email"], input[type="password"]{
 }
 
 .detail-info{
-  padding: 5.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5.25rem 5.25rem 0 0;
 }
 
 .detail-product-info{
   display: flex;
   flex-direction: column;
   padding-left: 7rem;
+  width: 80%;
+  letter-spacing: -0.5px;
 }
 
 .detail-title{
   font-weight: 900;
-  letter-spacing: -0.5px;
 }
 
 .detail-price{
@@ -377,5 +380,97 @@ input[type="email"], input[type="password"]{
 }
 
 .detail-color{
-  padding: 1.25rem;
+  padding-block: 1.25rem;
+  border-top: 1px solid whitesmoke;
+  color: rgb(117 117 117);
+  font-weight: 600;
+}
+
+.detail-size{
+  display: flex;
+  list-style: none;
+  padding-block: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  border-top: 1px solid whitesmoke;
+}
+
+.detail-size li{
+  padding-right: 1.25rem;
+}
+
+.detail-size li:hover{
+  font-weight: 900;
+}
+
+.detail-ship-info{
+  padding-block: 1.25rem;
+  border-top: 1px solid whitesmoke;
+}
+
+.detail-detail{
+  border-top: 1px solid whitesmoke;
+}
+
+.detail-detail-button{
+  padding-block: 1.25rem;
+  padding-inline: 0;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0);
+  width: 100%;
+  text-align: left;
+  margin: 0;
+  letter-spacing: -0.5px;
+  font-size: 10px;
+}
+
+.detail-detail-title{
+  font-weight: 700;
+  min-width: 40px;
+  margin-right: 5px;
+}
+
+.detail-detail-button:hover .detail-detail-title{
+  font-weight: 800;
+}
+
+.detail-arrow{
+  width: 8px;
+  transform: rotate(270deg);
+}
+
+.detail-detail-button:hover .detail-arrow {
+  transform: rotate(360deg);
+  transition: transform 0.3s ease;
+}
+
+.detail-shopping-add{
+  width: 100%;
+  height: 2.8125rem;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  transition: background-color 0.3s ease;
+}
+
+.detail-shopping-add:hover{
+  background-color: gray;
+  border: none;
+}
+
+.detail-shopping-buy{
+  width: 100%;
+  height: 2.8125rem;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  font-weight: 700;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.detail-shopping-buy:hover{
+  color: white;
+  background-color: gray;
+  border: none;
 }
