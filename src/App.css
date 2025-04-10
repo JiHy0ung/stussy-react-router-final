@@ -214,6 +214,7 @@ body{
 
 .nav-search{
   display: none;
+  justify-content: flex-start;
   align-items: center;
   gap: 1rem;
   width: 100vw;
@@ -225,6 +226,7 @@ body{
   position: fixed;
   z-index: 10;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  padding-inline: 1.25rem;
 }
 
 .nav-search.active{
@@ -245,7 +247,7 @@ body{
   border: none;
   outline: none;
   cursor: pointer;
-  width: 100vw;
+  width: 70vw;
   font-size: 10px;
   padding-block: 0.5rem;
 }
