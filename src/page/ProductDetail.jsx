@@ -14,6 +14,7 @@ const ProductDetail = () => {
     let url = `https://my-json-server.typicode.com/JiHy0ung/stussy-react-router-final/products/${id}`;
     let response = await fetch(url);
     let data = await response.json();
+    console.log(data);
     setProduct(data);
 
   };
