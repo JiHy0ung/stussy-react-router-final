@@ -44,7 +44,8 @@ function App() {
       </div>
       <div className='product-area'>
         <Routes>
-          <Route path='/' element={<ProductAll />}/>
+        <Route path='/' element={<Home/>}/>
+          <Route path='/all+product' element={<ProductAll />}/>
           <Route path='/login' element={<Login setAuthenticate={setAuthenticate}/>}/>
           <Route path='/product/:id' element={<PrivateRoute authenticate={authenticate}/>}/>
         </Routes>

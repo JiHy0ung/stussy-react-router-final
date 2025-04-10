@@ -11,6 +11,15 @@ const ProductAll = () => {
     const getProducts = async() => {
         let searchQuery = query.get('q')||"";
         let url = `https://my-json-server.typicode.com/JiHy0ung/stussy-react-router-final/products?q=${searchQuery}`
+        
+        if (searchQuery === 'new=true') {
+            url = `https://my-json-server.typicode.com/JiHy0ung/stussy-react-router-final/products?new=true`;
+        }
+
+        if (searchQuery === 'choice=true') {
+            url = `https://my-json-server.typicode.com/JiHy0ung/stussy-react-router-final/products?choice=true`;
+        }
+
         let response = await fetch(url);
         let data = await response.json();
         setProductList(data);

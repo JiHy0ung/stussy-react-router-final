@@ -23,11 +23,22 @@ const Navbar = ({authenticate, setAuthenticate}) => {
         navigate('/');
     };
 
+    const goToProductAll = (category) => {
+        setSelectedCategory(category);
+        if(category === 'ALL' || category == 'SHOP'){
+            navigate('/all+product');
+        }else if(category === 'NEW ARRIVALS'){
+            navigate('/all+product?q=new=true');
+        }else if(category === 'LOOKBOOK'){
+            navigate('/all+product?q=choice=true');
+        }
+    }
+
     const search = (event) => {
         if(event.key == "Enter"){
             // 입력한 검색어를 가져와 url을 바꿔준다.
             let keyword = event.target.value;
-            navigate(`/?q=${keyword}`);
+            navigate(`/all+product?q=${keyword}`);
         }
     };
 
@@ -40,8 +51,8 @@ const Navbar = ({authenticate, setAuthenticate}) => {
                 </div>
                 <div>
                     <ul className='menu-list'>
-                        {menuList.map((menu) => (
-                            <li>{menu}</li>
+                    {menuList.map((menu, idx) => (
+                            <li key={idx} onClick={() => goToProductAll(menu)}>{menu}</li> // SHOP 클릭 시 goToProductAll 호출
                         ))}
                     </ul>
                 </div>
@@ -73,7 +84,7 @@ const Navbar = ({authenticate, setAuthenticate}) => {
         <div>
             <ul className={`nav-sidemenu ${sideMenuOpen ? 'open' : ''}`}>
                 {categoryList.map((menu, idx) => (
-                    <li key={idx} className={`side-select ${selectCategory === menu ? 'active' : ''}`} onClick={() => setSelectedCategory(menu)}>
+                    <li key={idx} className={`side-select ${selectCategory === menu ? 'active' : ''}`} onClick={() => goToProductAll(menu)}>
                         {menu}
                     </li>
                 ))}
@@ -84,7 +95,7 @@ const Navbar = ({authenticate, setAuthenticate}) => {
             <div className='nav-category-menu scroll-hidden'>
                 <ul className='category-list scroll-hidden'>
                     {categoryList.map((menu, idx) => (
-                        <li key={idx} className={`select ${selectCategory === menu ? 'active' : ''}`} onClick={() => setSelectedCategory(menu)}>
+                        <li key={idx} className={`select ${selectCategory === menu ? 'active' : ''}`} onClick={() => goToProductAll(menu)}>
                             {menu}
                         </li>
                     ))}
