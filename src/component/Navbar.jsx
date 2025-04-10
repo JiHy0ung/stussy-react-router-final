@@ -1,11 +1,12 @@
-import { faSearch, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faSearch, faUser, faX } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React, { useState } from 'react'
+import React, { use, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 
 const Navbar = ({authenticate, setAuthenticate}) => {
 
     const [selectCategory, setSelectedCategory] = useState(null);
+    const [sideMenuOpen, setSideMenuOpen] = useState(false);
 
     const menuList = ['SHOP', 'LOOKBOOK', 'SUPPORT']
     const categoryList = ['ALL', 'NEW ARRIVALS', 'SUNGLASSES', 'OUTERWEAR', 'TEES', 'TOPS & SWEATS', 'HOODIES & SWEATS', 'KNITS', 'PANTS', 'SHORTS', 'DENIM', 'HEADWEAR','ACCESSORIES']
@@ -54,10 +55,25 @@ const Navbar = ({authenticate, setAuthenticate}) => {
                     <FontAwesomeIcon icon={faUser}/>
                     {authenticate ? 'LOGOUT' : 'LOGIN'}
                 </div>
+
+                <div className='hamburger' onClick={() => setSideMenuOpen(!sideMenuOpen)}>
+                    <FontAwesomeIcon icon={sideMenuOpen ? faX : faBars}/>
+                </div>                
             </div>
         </div>
+
+        <div>
+            <ul className={`nav-sidemenu ${sideMenuOpen ? 'open' : ''}`}>
+                {categoryList.map((menu, idx) => (
+                    <li key={idx} className={`side-select ${selectCategory === menu ? 'active' : ''}`} onClick={() => setSelectedCategory(menu)}>
+                        {menu}
+                    </li>
+                ))}
+            </ul>
+        </div>
+
         <div className='nav-bottom'>
-            <div>
+            <div className='nav-category-menu'>
                 <ul className='category-list'>
                     {categoryList.map((menu, idx) => (
                         <li key={idx} className={`select ${selectCategory === menu ? 'active' : ''}`} onClick={() => setSelectedCategory(menu)}>
