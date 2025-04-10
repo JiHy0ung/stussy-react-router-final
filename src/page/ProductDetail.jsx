@@ -85,10 +85,10 @@ const ProductDetail = () => {
               </div>
             </div>
             <div className='detail-shopping-area'>
-              <div>
+              <div className='detail-add'>
                 <button className='detail-shopping-add'>쇼핑백에 추가</button>
               </div>
-              <div>
+              <div className='detail-buy'>
                 <button className='detail-shopping-buy'>바로 구매</button>
               </div>
             </div>
