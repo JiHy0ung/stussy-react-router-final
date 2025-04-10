@@ -25,7 +25,7 @@ const ProductAll = () => {
         }
 
         if (searchQuery === 'Category=TEES') {
-            url = `https://my-json-server.typicode.com/JiHy0ung/stussy-react-router-final/products?qTEES`;
+            url = `https://my-json-server.typicode.com/JiHy0ung/stussy-react-router-final/products?q=TEES`;
         }
 
         if (searchQuery === 'Category=TOP') {
