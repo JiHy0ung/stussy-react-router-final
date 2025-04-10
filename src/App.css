@@ -702,7 +702,7 @@ input[type="email"], input[type="password"]{
   color: white;
   font-weight: 700;
   transition: background-color 0.3s ease;
-  padding-inline: 8vw;
+  padding-inline: 5vw;
 }
 
 .detail-shopping-add:hover{
@@ -718,7 +718,7 @@ input[type="email"], input[type="password"]{
   border: 1px solid black;
   font-weight: 700;
   transition: background-color 0.3s ease, color 0.3s ease;
-  padding-inline: 8vw;
+  padding-inline: 5vw;
 }
 
 .detail-shopping-buy:hover{
