@@ -416,7 +416,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 10rem;
+  gap: 8vw;
   width: 100%;
 }
 
