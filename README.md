@@ -2,7 +2,7 @@
 
 **Shopping App**
 
-### **[쇼핑 앱(스투시) 바로가기~🌦](https://stussy-react-router-9.vercel.app//)**
+### **[쇼핑 앱(스투시) 바로가기~🌦](https://stussy-react-router-final.vercel.app/)**
 ![image](https://images.onthelook.co.kr/b/h9qsoq74Ch1JjDwfRPBYqL.jpeg)
 
 <br>
