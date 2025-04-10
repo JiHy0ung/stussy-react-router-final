@@ -22,15 +22,14 @@ const ProductDetail = () => {
   };
 
   useEffect(() => {
-    console.log(`id: ${id}`);
     getProductDetail();
   }, [])
 
   return (
     <div className='detail'>
       <div className='detail-container'>
-        <Row>
-          <Col>
+        <Row className='detail-box'>
+          <Col className="custom-col">
             <img className='detail-img' src={product?.detailImage}/>
           </Col>
           <Col className='detail-info'>
@@ -85,14 +84,14 @@ const ProductDetail = () => {
                 </button>
               </div>
             </div>
-            <Row className='detail-shopping-area'>
-              <Col>
+            <div className='detail-shopping-area'>
+              <div>
                 <button className='detail-shopping-add'>쇼핑백에 추가</button>
-              </Col>
-              <Col>
+              </div>
+              <div>
                 <button className='detail-shopping-buy'>바로 구매</button>
-              </Col>
-            </Row>
+              </div>
+            </div>
           </Col>
         </Row>
       </div>
