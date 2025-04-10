@@ -40,7 +40,7 @@
             "id":3,
             "img":"/ProductImage/BASIC_MESH_SHORT(SAND_CAMO).webp",
             "title":"BASIC MESH SHORT",
-            "price":13300,            
+            "price":133000,            
             "color":"SAND CAMO",
             "choice":false,
             "new":true,
@@ -52,7 +52,7 @@
             "id":4,
             "img":"/ProductImage/BASIC_MESH_SHORT(BLACK).webp",
             "title":"BASIC MESH SHORT",
-            "price":13300,            
+            "price":133000,            
             "color":"BLACK",
             "choice":false,
             "new":false,
@@ -64,7 +64,7 @@
             "id":5,
             "img":"/ProductImage/BASIC_MESH_SHORT(BLUE).webp",
             "title":"BASIC MESH SHORT",
-            "price":13300,            
+            "price":133000,            
             "color":"BLUE",
             "choice":false,
             "new":false,
@@ -76,7 +76,7 @@
             "id":6,
             "img":"/ProductImage/BASIC_MESH_SHORT(DARK_RED).webp",
             "title":"BASIC MESH SHORT",
-            "price":13300,            
+            "price":133000,            
             "color":"DARK RED",
             "choice":false,
             "new":false,
@@ -88,7 +88,7 @@
             "id":7,
             "img":"/ProductImage/BASIC_MESH_SHORT(ORANGE).webp",
             "title":"BASIC MESH SHORT",
-            "price":13300,            
+            "price":133000,            
             "color":"ORANGE",
             "choice":false,
             "new":false,
@@ -100,7 +100,7 @@
             "id":8,
             "img":"/ProductImage/BASIC_MESH_SHORT(LEOPARD).webp",
             "title":"BASIC MESH SHORT",
-            "price":13300,            
+            "price":133000,            
             "color":"LEOPARD",
             "choice":true,
             "new":true,
@@ -239,6 +239,102 @@
             "size":["26","28","30","32","34","36","38"],
             "detailImage":"/DetailImage/BIG_OL'_JEAN_VINTAGE_DENIM(BROWN).webp"
 
-        }
+        },
+        {
+            "id":20,
+            "img":"/ProductImage/LANDON_SUNGLASSES(CHETAH/DARK_BROWN_LENS).webp",
+            "title":"LANDON SUNGLASSES",
+            "price":249000,
+            "color":"CHETAH/DARK BROWN LENS",
+            "choice":false,
+            "new":true,
+            "size":["ONE SIZE"],
+            "detailImage":"/DetailImage/LANDON_SUNGLASSES(CHETAH/DARK_BROWN_LENS).webp"
+
+        },
+        {
+            "id":21,
+            "img":"/ProductImage/LANDON_SUNGLASSES(BLACK/BLACK_LENS).webp",
+            "title":"LANDON SUNGLASSES",
+            "price":249000,
+            "color":"BLACK/BLACK LENS",
+            "choice":false,
+            "new":true,
+            "size":["ONE SIZE"],
+            "detailImage":"/DetailImage/LANDON_SUNGLASSES(BLACK/BLACK_LENS).webp"
+
+        },
+        {
+            "id":22,
+            "img":"/ProductImage/LANDON_SUNGLASSES(GREY/YELLOW_LENS).webp",
+            "title":"LANDON SUNGLASSES",
+            "price":249000,
+            "color":"GREY/YELLOW LENS",
+            "choice":false,
+            "new":true,
+            "size":["ONE SIZE"],
+            "detailImage":"/DetailImage/LANDON_SUNGLASSES(GREY/YELLOW_LENS).webp"
+
+        },
+        {
+            "id":23,
+            "img":"/ProductImage/LANDON_SUNGLASSES(DARK_BRICK/BROWN_LENS).webp",
+            "title":"LANDON SUNGLASSES",
+            "price":249000,
+            "color":"DARK BRICK/BROWN LENS",
+            "choice":false,
+            "new":true,
+            "size":["ONE SIZE"],
+            "detailImage":"/DetailImage/LANDON_SUNGLASSES(DARK_BRICK/BROWN_LENS).webp"
+
+        },
+        {
+            "id":24,
+            "img":"/ProductImage/TRUCKER_JACKET_VINTAGE_DENIM(INDIGO).webp",
+            "title":"TRUCKER JACKET VINTAGE DENIM",
+            "price":289000,
+            "color":"BLUE",
+            "choice":false,
+            "new":true,
+            "size":["S","M","L","XL","XXL"],
+            "detailImage":"/DetailImage/TRUCKER_JACKET_VINTAGE_DENIM(INDIGO).webp"
+
+        },
+        {
+            "id":25,
+            "img":"/ProductImage/TRUCKER_JACKET_VINTAGE_DENIM(BROWN).webp",
+            "title":"TRUCKER JACKET VINTAGE DENIM",
+            "price":289000,
+            "color":"BLUE",
+            "choice":false,
+            "new":true,
+            "size":["S","M","L","XL","XXL"],
+            "detailImage":"/DetailImage/TRUCKER_JACKET_VINTAGE_DENIM(BROWN).webp"
+
+        },
+        {
+            "id":26,
+            "img":"/ProductImage/BEACH_SHELL_SNAKE_PRINT_NYLON(OLIVE).webp",
+            "title":"BEACH SHELL SNAKE PRINT NYLON",
+            "price":289000,
+            "color":"OLIVE",
+            "choice":false,
+            "new":true,
+            "size":["S","M","L","XL","XXL"],
+            "detailImage":"/DetailImage/BEACH_SHELL_SNAKE_PRINT_NYLON(OLIVE).webp"
+
+        },
+        {
+            "id":27,
+            "img":"/ProductImage/BEACH_SHELL_SNAKE_PRINT_NYLON(KHAKI).webp",
+            "title":"BEACH SHELL SNAKE PRINT NYLON",
+            "price":289000,
+            "color":"KHAKI",
+            "choice":false,
+            "new":true,
+            "size":["S","M","L","XL","XXL"],
+            "detailImage":"/DetailImage/BEACH_SHELL_SNAKE_PRINT_NYLON(KHAKI).webp"
+
+        } 
     ]
 }
