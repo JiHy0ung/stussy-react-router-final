@@ -40,7 +40,7 @@
             "id":3,
             "img":"/ProductImage/BASIC_MESH_SHORT(SAND_CAMO).webp",
             "title":"BASIC MESH SHORT",
-            "price":133000,            
+            "price":13300,            
             "color":"SAND CAMO",
             "choice":false,
             "new":true,
@@ -52,7 +52,7 @@
             "id":4,
             "img":"/ProductImage/BASIC_MESH_SHORT(BLACK).webp",
             "title":"BASIC MESH SHORT",
-            "price":133000,            
+            "price":13300,            
             "color":"BLACK",
             "choice":false,
             "new":false,
@@ -64,7 +64,7 @@
             "id":5,
             "img":"/ProductImage/BASIC_MESH_SHORT(BLUE).webp",
             "title":"BASIC MESH SHORT",
-            "price":133000,            
+            "price":13300,            
             "color":"BLUE",
             "choice":false,
             "new":false,
@@ -76,7 +76,7 @@
             "id":6,
             "img":"/ProductImage/BASIC_MESH_SHORT(DARK_RED).webp",
             "title":"BASIC MESH SHORT",
-            "price":133000,            
+            "price":13300,            
             "color":"DARK RED",
             "choice":false,
             "new":false,
@@ -88,7 +88,7 @@
             "id":7,
             "img":"/ProductImage/BASIC_MESH_SHORT(ORANGE).webp",
             "title":"BASIC MESH SHORT",
-            "price":133000,            
+            "price":13300,            
             "color":"ORANGE",
             "choice":false,
             "new":false,
@@ -100,7 +100,7 @@
             "id":8,
             "img":"/ProductImage/BASIC_MESH_SHORT(LEOPARD).webp",
             "title":"BASIC MESH SHORT",
-            "price":133000,            
+            "price":13300,            
             "color":"LEOPARD",
             "choice":true,
             "new":true,
@@ -238,54 +238,6 @@
             "new":true,
             "size":["26","28","30","32","34","36","38"],
             "detailImage":"/DetailImage/BIG_OL'_JEAN_VINTAGE_DENIM(BROWN).webp"
-
-        },
-        {
-            "id":20,
-            "img":"/ProductImage/LANDON_SUNGLASSES(CHETAH/DARK_BROWN_LENS).webp",
-            "title":"LANDON SUNGLASSES",
-            "price":249000,
-            "color":"CHETAH/DARK BROWN LENS",
-            "choice":false,
-            "new":true,
-            "size":["ONE SIZE"],
-            "detailImage":"/DetailImage/LANDON_SUNGLASSES(CHETAH/DARK_BROWN_LENS).webp"
-
-        },
-        {
-            "id":21,
-            "img":"/ProductImage/LANDON_SUNGLASSES(BLACK/BLACK_LENS).webp",
-            "title":"LANDON SUNGLASSES",
-            "price":249000,
-            "color":"BLACK/BLACK LENS",
-            "choice":false,
-            "new":true,
-            "size":["ONE SIZE"],
-            "detailImage":"/DetailImage/LANDON_SUNGLASSES(BLACK/BLACK_LENS).webp"
-
-        },
-        {
-            "id":22,
-            "img":"/ProductImage/LANDON_SUNGLASSES(GREY/YELLOW_LENS).webp",
-            "title":"LANDON SUNGLASSES",
-            "price":249000,
-            "color":"GREY/YELLOW LENS",
-            "choice":false,
-            "new":true,
-            "size":["ONE SIZE"],
-            "detailImage":"/DetailImage/LANDON_SUNGLASSES(GREY/YELLOW_LENS).webp"
-
-        },
-        {
-            "id":23,
-            "img":"/ProductImage/LANDON_SUNGLASSES(DARK_BRICK/BROWN_LENS).webp",
-            "title":"LANDON SUNGLASSES",
-            "price":249000,
-            "color":"DARK BRICK/BROWN LENS",
-            "choice":false,
-            "new":true,
-            "size":["ONE SIZE"],
-            "detailImage":"/DetailImage/LANDON_SUNGLASSES(DARK_BRICK/BROWN_LENS).webp"
 
         }
     ]
