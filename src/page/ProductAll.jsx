@@ -22,7 +22,7 @@ const ProductAll = () => {
 
   return (
     <div className='product-all'>
-        <Container fluid style={{paddingInline: 160, paddingBottom: 40}}>
+        <div className='product-all-area'>
             <Row>
                 {productList.map((menu) => (
                     <Col lg={3} >
@@ -30,7 +30,7 @@ const ProductAll = () => {
                     </Col>
                 ))}
             </Row>
-        </Container>
+        </div>
     </div>
   )
 }

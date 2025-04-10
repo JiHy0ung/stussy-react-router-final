@@ -326,6 +326,11 @@ body{
   width: 100%;
 }
 
+.product-all-area{
+  padding-inline: 160px;
+  padding-bottom: 40px;
+}
+
 .product-card{
   font-size: 10px;
   margin-top: 20px;
@@ -588,12 +593,14 @@ input[type="email"], input[type="password"]{
   margin: 0;
   letter-spacing: -0.5px;
   font-size: 10px;
+  color: black;
 }
 
 .detail-detail-title{
   font-weight: 700;
   min-width: 40px;
   margin-right: 5px;
+  color: black;
 }
 
 .detail-detail-button:hover .detail-detail-title{
@@ -601,6 +608,7 @@ input[type="email"], input[type="password"]{
 }
 
 .detail-arrow{
+  color: black;
   width: 8px;
   transform: rotate(270deg);
 }
@@ -611,6 +619,7 @@ input[type="email"], input[type="password"]{
 }
 
 .detail-shopping-add{
+  color: black;
   width: 100%;
   height: 2.8125rem;
   background-color: black;
