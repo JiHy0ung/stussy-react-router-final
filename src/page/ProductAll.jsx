@@ -20,6 +20,22 @@ const ProductAll = () => {
             url = `https://my-json-server.typicode.com/JiHy0ung/stussy-react-router-final/products?choice=true`;
         }
 
+        if (searchQuery === 'Category=OUTERWEAR') {
+            url = `https://my-json-server.typicode.com/JiHy0ung/stussy-react-router-final/products?q=OUTERWEAR`;
+        }
+
+        if (searchQuery === 'category=TEES') {
+            url = `https://my-json-server.typicode.com/JiHy0ung/stussy-react-router-final/products?q=TEES`;
+        }
+
+        if (searchQuery === 'category=TOP') {
+            url = `https://my-json-server.typicode.com/JiHy0ung/stussy-react-router-final/products?q=TOP`;
+        }
+
+        if (searchQuery === 'category=PANTS') {
+            url = `https://my-json-server.typicode.com/JiHy0ung/stussy-react-router-final/products?q=PANTS`;
+        }
+
         let response = await fetch(url);
         let data = await response.json();
         setProductList(data);

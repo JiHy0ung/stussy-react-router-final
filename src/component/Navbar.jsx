@@ -10,7 +10,7 @@ const Navbar = ({authenticate, setAuthenticate}) => {
     const [searchOpen, setSearchOpen] = useState(false);
 
     const menuList = ['SHOP', 'LOOKBOOK', 'SUPPORT']
-    const categoryList = ['ALL', 'NEW ARRIVALS', 'SUNGLASSES', 'OUTERWEAR', 'TEES', 'TOPS & SWEATS', 'HOODIES & SWEATS', 'KNITS', 'PANTS', 'SHORTS', 'DENIM', 'HEADWEAR','ACCESSORIES']
+    const categoryList = ['ALL', 'NEW ARRIVALS', 'OUTERWEAR', 'TEES', 'TOPS & SWEATS', 'PANTS']
 
     const navigate = useNavigate();
 
@@ -31,6 +31,14 @@ const Navbar = ({authenticate, setAuthenticate}) => {
             navigate('/all+product?q=new=true');
         }else if(category === 'LOOKBOOK'){
             navigate('/all+product?q=choice=true');
+        }else if(category === 'OUTERWEAR'){
+            navigate('/all+product?q=Category=OUTERWEAR');
+        }else if(category === 'TEES'){
+            navigate('/all+product?q=Category=TEES');
+        }else if(category === 'TOPS & SWEATS'){
+            navigate('/all+product?q=Category=TOP');
+        }else if(category === 'PANTS'){
+            navigate('/all+product?q=Category=PANTS');
         }
     }
 

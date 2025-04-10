@@ -10,7 +10,7 @@
             "new":true,
             "size":["S","M","L","XL","XXL"],
             "detailImage":"/DetailImage/INTERNATIONAL_TEAM_JERSEY(BLACK).webp",
-            "category:":"TEE"
+            "Category:":"TEES"
             
 
         },
@@ -24,7 +24,7 @@
             "new":true,
             "size":["S","M","L","XL","XXL"],
             "detailImage":"/DetailImage/INTERNATIONAL_TEAM_JERSEY(WHITE).webp",
-            "category:":"TEE"
+            "Category:":"TEES"
 
         },
         {
@@ -37,7 +37,7 @@
             "new":true,
             "size":["S","M","L","XL","XXL"],
             "detailImage":"/DetailImage/INTERNATIONAL_TEAM_JERSEY(BLUE).webp",
-            "category:":"TEE"
+            "Category:":"TEES"
 
         },
         {
@@ -50,7 +50,7 @@
             "new":true,
             "size":["S","M","L","XL","XXL"],
             "detailImage":"/DetailImage/BASIC_MESH_SHORT(SAND_CAMO).webp",
-            "category:":"PANTS"
+            "Category:":"PANTS"
 
         },
         {
@@ -63,7 +63,7 @@
             "new":false,
             "size":["S","M","L","XL","XXL"],
             "detailImage":"/DetailImage/BASIC_MESH_SHORT(BLACK).webp",
-            "category:":"PANTS"
+            "Category:":"PANTS"
 
         },
         {
@@ -76,7 +76,7 @@
             "new":false,
             "size":["S","M","L","XL","XXL"],
             "detailImage":"/DetailImage/BASIC_MESH_SHORT(BLUE).webp",
-            "category:":"PANTS"
+            "Category:":"PANTS"
 
         },
         {
@@ -89,7 +89,7 @@
             "new":false,
             "size":["S","M","L","XL","XXL"],
             "detailImage":"/DetailImage/BASIC_MESH_SHORT(DARK_RED).webp",
-            "category:":"PANTS"
+            "Category:":"PANTS"
 
         },
         {
@@ -102,7 +102,7 @@
             "new":false,
             "size":["S","M","L","XL","XXL"],
             "detailImage":"/DetailImage/BASIC_MESH_SHORT(ORANGE).webp",
-            "category:":"PANTS"
+            "Category:":"PANTS"
 
         },
         {
@@ -115,7 +115,7 @@
             "new":true,
             "size":["S","M","L","XL","XXL"],
             "detailImage":"/DetailImage/BASIC_MESH_SHORT(LEOPARD).webp",
-            "category:":"PANTS"
+            "Category:":"PANTS"
 
         },
         {
@@ -128,7 +128,7 @@
             "new":true,
             "size":["S","M","L","XL","XXL"],
             "detailImage":"/DetailImage/DOUBLE_LAYER_WAFFLE_ZIP_HOODIE(OFF_WHITE).webp",
-            "category:":"OUTERWEAR"
+            "Category:":"OUTERWEAR"
 
         },
         {
@@ -141,7 +141,7 @@
             "new":true,
             "size":["S","M","L","XL","XXL"],
             "detailImage":"/DetailImage/DOUBLE_LAYER_WAFFLE_ZIP_HOODIE(BLUE).webp",
-            "category:":"OUTERWEAR"
+            "Category:":"OUTERWEAR"
 
         },
         {
@@ -154,7 +154,7 @@
             "new":true,
             "size":["S","M","L","XL","XXL"],
             "detailImage":"/DetailImage/DOUBLE_LAYER_WAFFLE_ZIP_HOODIE(RED).webp",
-            "category:":"OUTERWEAR"
+            "Category:":"OUTERWEAR"
 
         },
         {
@@ -167,7 +167,7 @@
             "new":true,
             "size":["S","M","L","XL","XXL"],
             "detailImage":"/DetailImage/DOUBLE_LAYER_WAFFLE_ZIP_HOODIE(BLACK).webp",
-            "category:":"OUTERWEAR"
+            "Category:":"OUTERWEAR"
 
         },
         {
@@ -180,7 +180,7 @@
             "new":false,
             "size":["S","M","L","XL","XXL"],
             "detailImage":"/DetailImage/TOUGH_TREAD_TEE(WHITE).webp",
-            "category:":"TEE"
+            "Category:":"TEES"
 
         },
         {
@@ -193,7 +193,7 @@
             "new":false,
             "size":["S","M","L","XL","XXL"],
             "detailImage":"/DetailImage/TOUGH_TREAD_TEE(BLACK).webp",
-            "category:":"TEE"
+            "Category:":"TEES"
 
         },
         {
@@ -206,7 +206,7 @@
             "new":true,
             "size":["S","M","L","XL","XXL"],
             "detailImage":"/DetailImage/TOUGH_TREAD_TEE(CAYENNE).webp",
-            "category:":"TEE"
+            "Category:":"TEES"
 
         },
         {
@@ -219,7 +219,7 @@
             "new":true,
             "size":["S","M","L","XL","XXL"],
             "detailImage":"/DetailImage/WAVY_STRIPED_SHORT_SLEEVE_SHIRT(BLUE).webp",
-            "category:":"TOPS"
+            "Category:":"TOPS"
 
         },
         {
@@ -232,7 +232,7 @@
             "new":true,
             "size":["S","M","L","XL","XXL"],
             "detailImage":"/DetailImage/WAVY_STRIPED_SHORT_SLEEVE_SHIRT(NATURAL).webp",
-            "category:":"TOPS"
+            "Category:":"TOPS"
 
         },
         {
@@ -245,7 +245,7 @@
             "new":false,
             "size":["26","28","30","32","34","36","38"],
             "detailImage":"/DetailImage/BIG_OL'_JEAN_VINTAGE_DENIM(INDIGO).webp",
-            "category:":"PANTS"
+            "Category:":"PANTS"
 
         },
         {
@@ -258,7 +258,7 @@
             "new":true,
             "size":["26","28","30","32","34","36","38"],
             "detailImage":"/DetailImage/BIG_OL'_JEAN_VINTAGE_DENIM(BROWN).webp",
-            "category:":"PANTS"
+            "Category:":"PANTS"
 
         }
     ]
