@@ -28,14 +28,19 @@ const ProductDetail = () => {
       <div className='detail-container'>
         <Row>
           <Col>
-            <img src={product?.detailImag}/>
+            <img className='detail-img' src={product?.detailImage}/>
           </Col>
-          <Col>
-            <div>
-              {product?.title}
-            </div>
-            <div>
-              ₩{product?.price}
+          <Col className='detail-info'>
+            <div className='detail-product-info'>
+              <div className='detail-title'>
+                {product?.title}
+              </div>
+              <div className='detail-price'>
+                ₩{product?.price}
+              </div>
+              <div className='detail-color'>
+                {product?.color}
+              </div>
             </div>
           </Col>
         </Row>
