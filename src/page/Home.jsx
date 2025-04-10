@@ -1,9 +1,17 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 const Home = () => {
+
+  const navigate = useNavigate();
+
+  const goToAllProducts =() => {
+    navigate('/all+product');
+  };
+
   return (
     <>
-      <div className='home-img-area'>
+      <div className='home-img-area' onClick={goToAllProducts}>
           <img className='home-img' src='/Stussy-Homepage.webp' alt=""/>
       </div>
       <div className='home-footer'>
