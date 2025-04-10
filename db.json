@@ -1,244 +1,136 @@
 {
-    "products":[
+    "products": [
         {
-            "id":0,
-            "img":"/ProductImage/INTERNATIONAL_TEAM_JERSEY(BLACK).jpg",
-            "title":"STÜSSY INTERNATIONAL TEAM JERSEY",
-            "price":195000,
-            "color":"BLACK",
-            "choice":true,
-            "new":true,
-            "size":["S","M","L","XL","XXL"],
-            "detailImage":"/DetailImage/INTERNATIONAL_TEAM_JERSEY(BLACK).webp"
-
+            "id": 0,
+            "img": "/ProductImage/WAVY_STRIPED_SHORT_SLEEVE_SHIRT(BLUE).webp",
+            "title": "WAVY STRIPED SHORT SLEEVE SHIRT",
+            "price": 235000,
+            "color": "BLUE",
+            "choice": false,
+            "new": true,
+            "size": ["S", "M", "L", "XL", "XXL"],
+            "detailImage": "/DetailImage/WAVY_STRIPED_SHORT_SLEEVE_SHIRT(BLUE).webp"
         },
         {
-            "id":1,
-            "img":"/ProductImage/INTERNATIONAL_TEAM_JERSEY(WHITE).jpg",
-            "title":"STÜSSY INTERNATIONAL TEAM JERSEY",
-            "price":195000,
-            "color":"WHITE",
-            "choice":false,
-            "new":true,
-            "size":["S","M","L","XL","XXL"],
-            "detailImage":"/DetailImage/INTERNATIONAL_TEAM_JERSEY(WHITE).webp"
-
+            "id": 1,
+            "img": "/ProductImage/WAVY_STRIPED_SHORT_SLEEVE_SHIRT(NATURAL).webp",
+            "title": "WAVY STRIPED SHORT SLEEVE SHIRT",
+            "price": 235000,
+            "color": "NATURAL",
+            "choice": true,
+            "new": true,
+            "size": ["S", "M", "L", "XL", "XXL"],
+            "detailImage": "/DetailImage/WAVY_STRIPED_SHORT_SLEEVE_SHIRT(NATURAL).webp"
         },
         {
-            "id":2,
-            "img":"/ProductImage/INTERNATIONAL_TEAM_JERSEY(BLUE).webp",
-            "title":"STÜSSY INTERNATIONAL TEAM JERSEY",
-            "price":195000,
-            "color":"BLUE",
-            "choice":false,
-            "new":true,
-            "size":["S","M","L","XL","XXL"],
-            "detailImage":"/DetailImage/INTERNATIONAL_TEAM_JERSEY(BLUE).webp"
-
+            "id": 2,
+            "img": "/ProductImage/BIG_OL'_JEAN_VINTAGE_DENIM(INDIGO).webp",
+            "title": "BIG OL'JEAN VINTAGE DENIM",
+            "price": 249000,
+            "color": "INDIGO",
+            "choice": false,
+            "new": false,
+            "size": ["26", "28", "30", "32", "34", "36", "38"],
+            "detailImage": "/DetailImage/BIG_OL'_JEAN_VINTAGE_DENIM(INDIGO).webp"
         },
         {
-            "id":3,
-            "img":"/ProductImage/BASIC_MESH_SHORT(SAND_CAMO).webp",
-            "title":"BASIC MESH SHORT",
-            "price":13300,            
-            "color":"SAND CAMO",
-            "choice":false,
-            "new":true,
-            "size":["S","M","L","XL","XXL"],
-            "detailImage":"/DetailImage/BASIC_MESH_SHORT(SAND_CAMO).webp"
-
+            "id": 3,
+            "img": "/ProductImage/BIG_OL'_JEAN_VINTAGE_DENIM(BROWN).webp",
+            "title": "BIG OL'JEAN VINTAGE DENIM",
+            "price": 249000,
+            "color": "BROWN",
+            "choice": false,
+            "new": true,
+            "size": ["26", "28", "30", "32", "34", "36", "38"],
+            "detailImage": "/DetailImage/BIG_OL'_JEAN_VINTAGE_DENIM(BROWN).webp"
         },
         {
-            "id":4,
-            "img":"/ProductImage/BASIC_MESH_SHORT(BLACK).webp",
-            "title":"BASIC MESH SHORT",
-            "price":13300,            
-            "color":"BLACK",
-            "choice":false,
-            "new":false,
-            "size":["S","M","L","XL","XXL"],
-            "detailImage":"/DetailImage/BASIC_MESH_SHORT(BLACK).webp"
-
+            "id": 4,
+            "img": "/ProductImage/LANDON_SUNGLASSES(CHETAH/DARK_BROWN_LENS).webp",
+            "title": "LANDON SUNGLASSES",
+            "price": 249000,
+            "color": "CHETAH/DARK BROWN LENS",
+            "choice": false,
+            "new": true,
+            "size": ["ONE SIZE"],
+            "detailImage": "/DetailImage/LANDON_SUNGLASSES(CHETAH/DARK_BROWN_LENS).webp"
         },
         {
-            "id":5,
-            "img":"/ProductImage/BASIC_MESH_SHORT(BLUE).webp",
-            "title":"BASIC MESH SHORT",
-            "price":13300,            
-            "color":"BLUE",
-            "choice":false,
-            "new":false,
-            "size":["S","M","L","XL","XXL"],
-            "detailImage":"/DetailImage/BASIC_MESH_SHORT(BLUE).webp"
-
+            "id": 5,
+            "img": "/ProductImage/LANDON_SUNGLASSES(BLACK/BLACK_LENS).webp",
+            "title": "LANDON SUNGLASSES",
+            "price": 249000,
+            "color": "BLACK/BLACK LENS",
+            "choice": false,
+            "new": true,
+            "size": ["ONE SIZE"],
+            "detailImage": "/DetailImage/LANDON_SUNGLASSES(BLACK/BLACK_LENS).webp"
         },
         {
-            "id":6,
-            "img":"/ProductImage/BASIC_MESH_SHORT(DARK_RED).webp",
-            "title":"BASIC MESH SHORT",
-            "price":13300,            
-            "color":"DARK RED",
-            "choice":false,
-            "new":false,
-            "size":["S","M","L","XL","XXL"],
-            "detailImage":"/DetailImage/BASIC_MESH_SHORT(DARK_RED).webp"
-
+            "id": 6,
+            "img": "/ProductImage/LANDON_SUNGLASSES(GREY/YELLOW_LENS).webp",
+            "title": "LANDON SUNGLASSES",
+            "price": 249000,
+            "color": "GREY/YELLOW LENS",
+            "choice": false,
+            "new": true,
+            "size": ["ONE SIZE"],
+            "detailImage": "/DetailImage/LANDON_SUNGLASSES(GREY/YELLOW_LENS).webp"
         },
         {
-            "id":7,
-            "img":"/ProductImage/BASIC_MESH_SHORT(ORANGE).webp",
-            "title":"BASIC MESH SHORT",
-            "price":13300,            
-            "color":"ORANGE",
-            "choice":false,
-            "new":false,
-            "size":["S","M","L","XL","XXL"],
-            "detailImage":"/DetailImage/BASIC_MESH_SHORT(ORANGE).webp"
-
+            "id": 7,
+            "img": "/ProductImage/LANDON_SUNGLASSES(DARK_BRICK/BROWN_LENS).webp",
+            "title": "LANDON SUNGLASSES",
+            "price": 249000,
+            "color": "DARK BRICK/BROWN LENS",
+            "choice": false,
+            "new": true,
+            "size": ["ONE SIZE"],
+            "detailImage": "/DetailImage/LANDON_SUNGLASSES(DARK_BRICK/BROWN_LENS).webp"
         },
         {
-            "id":8,
-            "img":"/ProductImage/BASIC_MESH_SHORT(LEOPARD).webp",
-            "title":"BASIC MESH SHORT",
-            "price":13300,            
-            "color":"LEOPARD",
-            "choice":true,
-            "new":true,
-            "size":["S","M","L","XL","XXL"],
-            "detailImage":"/DetailImage/BASIC_MESH_SHORT(LEOPARD).webp"
-
+            "id": 8,
+            "img": "/ProductImage/TRUCKER_JACKET_VINTAGE_DENIM(INDIGO).webp",
+            "title": "TRUCKER JACKET VINTAGE DENIM",
+            "price": 289000,
+            "color": "BLUE",
+            "choice": false,
+            "new": true,
+            "size": ["S", "M", "L", "XL", "XXL"],
+            "detailImage": "/DetailImage/TRUCKER_JACKET_VINTAGE_DENIM(INDIGO).webp"
         },
         {
-            "id":9,
-            "img":"/ProductImage/DOUBLE_LAYER_WAFFLE_ZIP_HOODIE(OFF_WHITE).webp",
-            "title":"DOUBLE LAYER WAFFLE ZIP HOODIE",
-            "price":235000,            
-            "color":"OFF WHITE",
-            "choice":true,
-            "new":true,
-            "size":["S","M","L","XL","XXL"],
-            "detailImage":"/DetailImage/DOUBLE_LAYER_WAFFLE_ZIP_HOODIE(OFF_WHITE).webp"
-
+            "id": 9,
+            "img": "/ProductImage/TRUCKER_JACKET_VINTAGE_DENIM(BROWN).webp",
+            "title": "TRUCKER JACKET VINTAGE DENIM",
+            "price": 289000,
+            "color": "BLUE",
+            "choice": false,
+            "new": true,
+            "size": ["S", "M", "L", "XL", "XXL"],
+            "detailImage": "/DetailImage/TRUCKER_JACKET_VINTAGE_DENIM(BROWN).webp"
         },
         {
-            "id":10,
-            "img":"/ProductImage/DOUBLE_LAYER_WAFFLE_ZIP_HOODIE(BLUE).webp",
-            "title":"DOUBLE LAYER WAFFLE ZIP HOODIE",
-            "price":235000,            
-            "color":"BLUE",
-            "choice":false,
-            "new":true,
-            "size":["S","M","L","XL","XXL"],
-            "detailImage":"/DetailImage/DOUBLE_LAYER_WAFFLE_ZIP_HOODIE(BLUE).webp"
-
+            "id": 10,
+            "img": "/ProductImage/BEACH_SHELL_SNAKE_PRINT_NYLON(OLIVE).webp",
+            "title": "BEACH SHELL SNAKE PRINT NYLON",
+            "price": 289000,
+            "color": "OLIVE",
+            "choice": false,
+            "new": true,
+            "size": ["S", "M", "L", "XL", "XXL"],
+            "detailImage": "/DetailImage/BEACH_SHELL_SNAKE_PRINT_NYLON(OLIVE).webp"
         },
         {
-            "id":11,
-            "img":"/ProductImage/DOUBLE_LAYER_WAFFLE_ZIP_HOODIE(RED).webp",
-            "title":"DOUBLE LAYER WAFFLE ZIP HOODIE",
-            "price":235000,            
-            "color":"RED",
-            "choice":false,
-            "new":true,
-            "size":["S","M","L","XL","XXL"],
-            "detailImage":"/DetailImage/DOUBLE_LAYER_WAFFLE_ZIP_HOODIE(RED).webp"
-
-        },
-        {
-            "id":12,
-            "img":"/ProductImage/DOUBLE_LAYER_WAFFLE_ZIP_HOODIE(BLACK).webp",
-            "title":"DOUBLE LAYER WAFFLE ZIP HOODIE",
-            "price":235000,            
-            "color":"BLACK",
-            "choice":false,
-            "new":true,
-            "size":["S","M","L","XL","XXL"],
-            "detailImage":"/DetailImage/DOUBLE_LAYER_WAFFLE_ZIP_HOODIE(BLACK).webp"
-
-        },
-        {
-            "id":13,
-            "img":"/ProductImage/TOUGH_TREAD_TEE(WHITE).webp",
-            "title":"TOUGH TREAD TEE",
-            "price":73000,            
-            "color":"WHITE",
-            "choice":false,
-            "new":false,
-            "size":["S","M","L","XL","XXL"],
-            "detailImage":"/DetailImage/TOUGH_TREAD_TEE(WHITE).webp"
-
-        },
-        {
-            "id":14,
-            "img":"/ProductImage/TOUGH_TREAD_TEE(BLACK).webp",
-            "title":"TOUGH TREAD TEE",
-            "price":73000,            
-            "color":"BLACK",
-            "choice":false,
-            "new":false,
-            "size":["S","M","L","XL","XXL"],
-            "detailImage":"/DetailImage/TOUGH_TREAD_TEE(BLACK).webp"
-
-        },
-        {
-            "id":15,
-            "img":"/ProductImage/TOUGH_TREAD_TEE(CAYENNE).webp",
-            "title":"TOUGH TREAD TEE",
-            "price":73000,
-            "color":"CAYENNE",
-            "choice":false,
-            "new":true,
-            "size":["S","M","L","XL","XXL"],
-            "detailImage":"/DetailImage/TOUGH_TREAD_TEE(CAYENNE).webp"
-
-        },
-        {
-            "id":16,
-            "img":"/ProductImage/WAVY_STRIPED_SHORT_SLEEVE_SHIRT(BLUE).webp",
-            "title":"WAVY STRIPED SHORT SLEEVE SHIRT",
-            "price":235000,
-            "color":"BLUE",
-            "choice":false,
-            "new":true,
-            "size":["S","M","L","XL","XXL"],
-            "detailImage":"/DetailImage/WAVY_STRIPED_SHORT_SLEEVE_SHIRT(BLUE).webp"
-
-        },
-        {
-            "id":17,
-            "img":"/ProductImage/WAVY_STRIPED_SHORT_SLEEVE_SHIRT(NATURAL).webp",
-            "title":"WAVY STRIPED SHORT SLEEVE SHIRT",
-            "price":235000,
-            "color":"NATURAL",
-            "choice":true,
-            "new":true,
-            "size":["S","M","L","XL","XXL"],
-            "detailImage":"/DetailImage/WAVY_STRIPED_SHORT_SLEEVE_SHIRT(NATURAL).webp"
-
-        },
-        {
-            "id":18,
-            "img":"/ProductImage/BIG_OL'_JEAN_VINTAGE_DENIM(INDIGO).webp",
-            "title":"BIG OL'JEAN VINTAGE DENIM",
-            "price":249000,
-            "color":"INDIGO",
-            "choice":false,
-            "new":false,
-            "size":["26","28","30","32","34","36","38"],
-            "detailImage":"/DetailImage/BIG_OL'_JEAN_VINTAGE_DENIM(INDIGO).webp"
-
-        },
-        {
-            "id":19,
-            "img":"/ProductImage/BIG_OL'_JEAN_VINTAGE_DENIM(BROWN).webp",
-            "title":"BIG OL'JEAN VINTAGE DENIM",
-            "price":249000,
-            "color":"BROWN",
-            "choice":false,
-            "new":true,
-            "size":["26","28","30","32","34","36","38"],
-            "detailImage":"/DetailImage/BIG_OL'_JEAN_VINTAGE_DENIM(BROWN).webp"
-
+            "id": 11,
+            "img": "/ProductImage/BEACH_SHELL_SNAKE_PRINT_NYLON(KHAKI).webp",
+            "title": "BEACH SHELL SNAKE PRINT NYLON",
+            "price": 289000,
+            "color": "KHAKI",
+            "choice": false,
+            "new": true,
+            "size": ["S", "M", "L", "XL", "XXL"],
+            "detailImage": "/DetailImage/BEACH_SHELL_SNAKE_PRINT_NYLON(KHAKI).webp"
         }
     ]
 }
