@@ -40,7 +40,7 @@ function App() {
   return (
     <>
       <div className='nav-area'>
-        <Navbar/>
+        <Navbar authenticate={authenticate} setAuthenticate={setAuthenticate}/>
       </div>
       <div className='product-area'>
         <Routes>

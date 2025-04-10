@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 
-const Navbar = () => {
+const Navbar = ({authenticate, setAuthenticate}) => {
 
     const [selectCategory, setSelectedCategory] = useState(null);
 
@@ -13,12 +13,22 @@ const Navbar = () => {
     const navigate = useNavigate();
 
     const goToLogin = () =>{
-        navigate('/login')
-    }
+        authenticate ? setAuthenticate(false) : navigate('/login');
+    };
 
     const goToHome = () => {
+        
         navigate('/');
-    }
+    };
+
+    const search = (event) => {
+        if(event.key == "Enter"){
+            // 입력한 검색어를 가져와 url을 바꿔준다.
+            let keyword = event.target.value;
+            navigate(`/?q=${keyword}`);
+
+        }
+    };
 
   return (
     <div>
@@ -38,11 +48,11 @@ const Navbar = () => {
             <div className='nav-service'>
                 <div className='nav-input-area' >
                     <FontAwesomeIcon className='search-icon' icon={faSearch}/>
-                    <input className='nav-input' type="text" placeholder='SEARCH'/>
+                    <input className='nav-input' type="text" placeholder='SEARCH'onKeyDown={(event)=>search(event)}/>
                 </div>
                 <div className='login-area' onClick={goToLogin}>
                     <FontAwesomeIcon icon={faUser}/>
-                    LOGIN
+                    {authenticate ? 'LOGOUT' : 'LOGIN'}
                 </div>
             </div>
         </div>
