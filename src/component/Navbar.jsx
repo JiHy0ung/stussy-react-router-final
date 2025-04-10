@@ -40,6 +40,8 @@ const Navbar = ({authenticate, setAuthenticate}) => {
         }else if(category === 'PANTS'){
             navigate('/all+product?q=Category=PANTS');
         }
+
+        setSideMenuOpen(false);
     }
 
     const search = (event) => {
