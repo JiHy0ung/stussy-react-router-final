@@ -234,10 +234,6 @@ body{
   gap: 1rem;
 }
 
-.nav-search-icon{
-  padding-left: 9.5vw;
-}
-
 .nav-search-input-area{
   display: flex;
   justify-content: space-between;
