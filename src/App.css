@@ -782,6 +782,8 @@ input[type="email"], input[type="password"]{
   width: 100%;
   justify-content: center;
   padding-inline: 1rem;
+  margin-inline: 1rem;
+  margin-bottom: 1rem;
   gap: 1vw;
 }
 
