@@ -344,20 +344,21 @@ body{
 
 
 @media screen and (max-width: 1000px) {
-
-  .home-img-area{
+  .home-img-area {
     padding-top: 59px;
     margin: 10px !important;
     overflow: hidden !important;
+    touch-action: manipulation;
+    max-height: 100dvh;
   }
 
-  .home-img{
-    object-fit: cover !important;
-    padding: 0 !important;
-    height: 100% !important;
+  .home-img {
     width: 100% !important;
+    height: auto !important;
+    object-fit: cover !important;
+    pointer-events: none;
+    -webkit-user-drag: none;
   }
-
 }
 
 .home-img-area{
