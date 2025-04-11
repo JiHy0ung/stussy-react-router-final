@@ -355,6 +355,7 @@ body{
     object-fit: cover !important;
     padding: 0 !important;
     height: 100% !important;
+    width: 100% !important;
   }
 
 }
@@ -367,8 +368,10 @@ body{
 }
 
 .home-img{
+  object-fit: cover !important;
   height: 100dvh;
   padding-block: 1.25rem;
+  width: 80%;
 }
 
 .home-footer{
