@@ -255,6 +255,7 @@ body{
 }
 
 .nav-search-input{
+  background-color: white;
   border: none;
   outline: none;
   cursor: pointer;
