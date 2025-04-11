@@ -362,12 +362,10 @@ body{
 }
 
 .home-img-area{
-  position:fixed;
   display: flex;
   justify-content: center;
   height: 100dvh;
   overflow: hidden;
-  z-index: -1;
 }
 
 .home-img{
